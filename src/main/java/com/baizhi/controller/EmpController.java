@@ -17,5 +17,6 @@ public class EmpController {
         System.out.println("i am chendani");
         empMapper.deleteByPrimaryKey(1002);
         System.out.println(empMapper.deleteByPrimaryKey(1002));
+        System.out.println("i am liandaxian");
     }
 }
