@@ -14,7 +14,7 @@ public class EmpController {
 
     @RequestMapping("/delete")
     public void delete() {
-
+        System.out.println("i am chendani");
         empMapper.deleteByPrimaryKey(1002);
         System.out.println(empMapper.deleteByPrimaryKey(1002));
     }
